@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "name": "node_api_todos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

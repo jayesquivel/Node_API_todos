@@ -5,18 +5,6 @@ const port = 3000;
 // Middleware to parse JSON bodies
 app.use(express.json());
 
-/*
-  Extra:
-  Here is a simple example of a middleware function called “myLogger”. 
-  This function just prints “LOGGED” when a request to the app passes through it. 
-  The middleware function is assigned to a variable named myLogger.
-*/
-const myLogger = function (req, res, next) {
-  console.log('LOGGED')
-  next()
-}
-
-app.use(myLogger)
 
 
 // Question 1: Add a "Priority" Field to the To-Do API
